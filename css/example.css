@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import url(http://weloveiconfonts.com/api/?family=typicons);
+
+/* typicons */
+[class*="typicons-"]:before {
+  font-family: 'Typicons', sans-serif;
+}
+
+body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#container{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#container > div{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	font-size:30px;
+	text-align:center;
+}
+
+h1{
+	margin-bottom:0;
+	margin-top:150px;
+}	
+
+#item1{
+	z-index:10;
+	background:#FFF;
+}
+
+#item2{
+	background:#0C6;
+	z-index:9;
+}
+
+#item3{
+	background:#06C;
+	z-index:8;
+}
+
+#item4{
+	background:#FFF;
+	z-index:7;
+}
+
+#link{
+	margin-top:30px;
+}
